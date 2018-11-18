@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    text-decoration: none
+}
+
+body{
+    background-color: rgb(124, 124, 126);
+}
+
+#navigasi {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    opacity: 0,4;
+    position: fixed;
+    z-index: 2;
+}
+
+#navigasi ul li {
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left:40px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+#navigasi ul li a{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+#navigasi ul li a:hover{
+    color: goldenrod;
+    border-bottom: 1px solid rgba(197, 197, 204, 0.836);
+    border-width: thick;
+}
+
+#home img{
+    width: 100%;
+    height: 680px;
+}
+
+#home p.AR{
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 11%;
+    left: 24%;
+}
+
+#home p.caption{
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left:31%;
+    bottom: 55%;
+
+}
+
+#about-us{
+    background-image: url(img/img-2.jpg);
+    position: relative;
+    background-size: cover;
+    color: azure;
+    padding: 200px 180px;
+}
+
+#about-us div{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    border: 1px solid white;
+    padding: 10px 1px;
+}
+
+#about-us p.about-us2{
+    font-size:  100px;
+}
+
+#about-us p.about-us3{
+    font-size: 18px;
+    line-height: 4ex;
+}
+
+#product {
+    background-image: url(img/img-11.jpg);
+    padding: 70px 100px;
+    text-align: center;
+}
+
+#product h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.250);
+
+}
+#clothes1 {
+    border: 8px dashed rgb(185, 163, 16);
+    margin: 20px;
+    display: inline-block;
+}
+
+#product img{
+    width: 400px;
+    height: 400px;
+}
+
+#product p{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.719)
+}
+
+#contact {
+    font-family: 'Lato', sans-serif;
+    padding: 1px 20px;
+    text-align: center;
+    background-color: rgba(204, 204, 207, 0.966);
+ }
+ 
+ #contact1 {
+    display: inline-block;
+    margin: 10px 50px;
+    font-size: 20px;
+    padding: 1px 30px;
+ }
+
+ 
